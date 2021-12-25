@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section{
+    height: 224px;
+    width: 888px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-top: 80px;
+    margin-left: 90px;  
+}
+
+.python{
+    padding: 40px 72px 40px 40px; 
+    display: flex;
+    height: 144px;
+    gap: 32px;
+}
+
+.python  .images{
+    width: 128px;
+    height:144px;
+    background: linear-gradient(321.69deg, #FF6188 0%, #FFB199 100%);
+    border-radius: 4px;
+}
+
+.images img{
+    padding: 32px 24px;
+}
+
+.info{
+    width: 410px;
+    height: 164px;
+    font-weight: normal;
+}
+
+.info h1{
+    font-size: 22px;
+    line-height: 25px;
+    padding-bottom: 8px;
+}
+
+.info span{
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+    
+}
+
+.info p{
+    padding-top:8px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+}
+
+.icons{
+    padding: 6px 10px;
+    
+}
+
+.icons .div span{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+
+
+
+/* MINI CARD */
+
+.mini-card{
+    height: 224px;
+    width: 240px;
+    border-radius: 16px;
+    background: linear-gradient(321.69deg, #FF6188 0%, #FFB199 100%);
+    margin-left:1020px;
+    margin-top: -225px;
+    position: relative;
+}
+
+.mini-card .text{
+    position: absolute;
+    top:24px;
+    left:16px;
+}
+
+.mini-card .text h1{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: white;
+}
+
+.mini-card button{
+    height: 37px;
+    width: 101px;
+    border-radius: 8px;  
+    border: 1px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    text-align: center; 
+    font-size: 16px;
+    line-height: 32px;
+    align-items: center;
+    color: #ff9999;
+    margin-top:40px;
+    margin-left: 101px;
+}

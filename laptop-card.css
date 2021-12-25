@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(235, 230, 230);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-section{
+    height: 400px;
+    width: 1002px;
+    margin: auto;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+}
+
+.laptop{
+    width: 400px;
+    height: 100%;
+    background: #BCD1FF;
+    position: relative;
+}
+
+.laptop img{
+    position: absolute;
+    top:80px;
+    left:80px;
+}
+
+
+
+.right-div{
+    width: 60%;
+    height: 100%;
+    padding: 32px 40px;
+}
+
+.right-div .head p{
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6E798C;  
+}
+
+.right-div .head p .h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px; 
+}
+
+
+
+.body-text{
+    padding:25px 0 25px 0;
+}
+
+.body-text h1{
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    padding-bottom: 15px;
+}
+
+.body-text p{
+    font-size: 18px;
+    line-height: 27px;
+    color: #374A59;
+}
+
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #007AE9;
+}
+
+.bottom .avatar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.bottom .avatar h2{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/* 2-CARD */
+
+.two-card{
+    height: 400px;
+    width: 318px;
+    margin-left: 180px;
+    margin-top: 70px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.two-laptop{
+    width:100%;
+    height: 168px;
+    background: #BCD1FF;
+    position: relative;
+}
+
+.two-laptop img{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    left: 99px;
+    top: 24px;
+    border-radius: 0px;
+}
+
+
+
+.two-right-div{
+    width: 100%;
+    height: 60%;
+    padding: 16px 25px;
+}
+
+.two-right-div .head p{
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #6E798C;  
+}
+
+.two-right-div .head p .h1{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+
+
+.two-body-text{
+    padding:10px 0 14px 0;
+}
+
+.two-body-text h1{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 4px;
+}
+
+.two-body-text p{
+    font-size: 13px;
+    line-height: 19px;
+    color: #374A59;
+}
+
+
+
+.two-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #007AE9;
+}
+
+.two-bottom .avatar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.two-bottom .avatar img{
+    width: 32px;
+}
+
+.two-bottom .avatar h2{
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+/* LITTLE CARD */
+
+
+
+.little-card{
+    height: 128px;
+    width: 400px;
+    margin-left: 600px;
+    margin-top: -400px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+}
+
+.little-laptop{
+    width:128px;
+    height: 100%;
+    background: #BCD1FF;
+    position: relative;
+}
+
+.little-laptop img{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 26px;
+    top: 25px;
+    border-radius: 0px;
+}
+
+
+
+.little-right-div{
+    width: 70%;
+    height: 100%;
+    padding: 24px 24px 26px 30px;
+}
+
+.little-right-div .head p{
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #6E798C;  
+}
+
+.little-right-div .head p .h1{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+
+.little-body-text h1{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 16px;
+}
+
+.little-body-text p{
+    font-size: 13px;
+    line-height: 19px;
+    color: #374A59;
+}
